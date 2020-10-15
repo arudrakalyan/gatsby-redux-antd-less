@@ -6,19 +6,10 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: 'gatsby-plugin-less',
-      options: {
-        javascriptEnabled: true,
-        modifyVars: {
-          'primary-color': '#BADA55'
-        }
+      resolve: `gatsby-plugin-less`,
       },
-    },
     {
       resolve: 'gatsby-plugin-antd',
-      options: {
-        style: true,
-      },
     },
     'gatsby-plugin-react-helmet',
     {
